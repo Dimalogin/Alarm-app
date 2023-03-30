@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./images/alarm-fav.png" rel="icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Alarm</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="alarm">
+        <div class="alarm__body">
+          <!--display-->
+          <div class="alarm__display"></div>
+          <!--switch-->
+          <div class="alarm__switch">
+            <div class="alarm-time__hours">
+              <div class="hours__title">Hours</div>
+              <div class="hours-components">
+                <div class="hours-component"></div>
+              </div>
+              <div class="hours-buttons">
+                <button class="hours-button__up up-arrow"></button>
+                <button class="hours-button__down down-arrow"></button>
+              </div>
+            </div>
+            <div class="alarm-time__minutes">
+              <div class="minutes__title">Minutes</div>
+              <div class="minutes-components">
+                <div class="minutes-component"></div>
+              </div>
+              <div class="minutes-buttons">
+                <button class="minutes-button__up up-arrow"></button>
+                <button class="minutes-button__down down-arrow"></button>
+              </div>
+            </div>
+          </div>
+          <!--buttom Add-->
+          <button class="alarm__set-button">Add Alarm</button>
+          <!--active Alarm-->
+          <div class="alarm__active"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

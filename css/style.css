@@ -1,0 +1,38 @@
+@import url(./reset.css);
+@import url(./alarm-switch.css);
+@import url(./alarm-active.css);
+
+body {
+  background-color: #377dff;
+}
+
+.wrapper {
+  max-width: 33em;
+  min-width: 350px;
+  margin: 0px auto;
+  padding: 100px 20px 0px 20px;
+}
+
+.alarm {
+  padding: 3.12em 5em;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
+/*display*/
+
+.alarm__display {
+  text-align: center;
+  font-size: 2.6em;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media screen and (max-width: 500px) {
+  .alarm {
+    padding: 3.12em 2em;
+  }
+
+  .alarm__display {
+    font-size: 2em;
+  }
+}
